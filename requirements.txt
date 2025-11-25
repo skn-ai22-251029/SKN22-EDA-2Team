@@ -1,9 +1,0 @@
-# smoke1 지역/기관별 금연 설문조사
-smoke1 = pd.read_csv('data/smoke1.csv')
-
-# smoke2 지역,수행기관명,우편번호,주소,대표전화번호
-smoke2 = pd.read_csv('data/smoke2.csv')
-
-
-# smoke3 순번,의료기관명,시도명,시군구명,주소,형태
-smoke3 = pd.read_csv('data/smoke3.csv')

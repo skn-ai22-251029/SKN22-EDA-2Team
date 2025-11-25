@@ -1,0 +1,20 @@
+# smoke1 : 지역/기관별 금연 설문조사
+pd.read_csv('../data/smoke1.csv')
+
+# smoke2 : 지역,수행기관명,우편번호,주소,대표전화번호
+pd.read_csv('../data/smoke2.csv')
+
+# smoke3 : 순번,의료기관명,시도명,시군구명,주소,형태
+pd.read_csv('../data/smoke3.csv')
+
+# Regional_Population_2023 : 2023년 11월 기준 지역별 인구수
+pd.read_csv('Regional_Population_2023.csv')
+
+# Regional_Population : 2025년 8월 ~ 10월 지역별 인구수
+pd.read_csv('Regional_Population.csv')
+
+# smoking_rate_2023_4 : 2023년 ~ 2024년 흡연자 비율 (표본집단이 적기 떄문에 표준화시켜 데이터 정리된 값)
+pd.read_csv('smoking_rate_2023_4.csv')
+
+# try_stop_smoking_2023_4 : 2023년 ~ 2024년 금연 시도자들 조사 (표본집단이 적기 떄문에 표준화시켜 데이터 정리된 값)
+pd.read_csv('try_stop_smoking_2023_4.csv')
