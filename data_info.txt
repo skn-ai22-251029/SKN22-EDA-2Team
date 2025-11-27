@@ -1,12 +1,6 @@
 # smoke1 : 지역/기관별 금연 설문조사
 pd.read_csv('../data/smoke1.csv')
 
-# smoke2 : 지역,수행기관명,우편번호,주소,대표전화번호
-pd.read_csv('../data/smoke2.csv')
-
-# smoke3 : 순번,의료기관명,시도명,시군구명,주소,형태
-pd.read_csv('../data/smoke3.csv')
-
 # Regional_Population_2023 : 2023년 11월 기준 지역별 인구수
 pd.read_csv('Regional_Population_2023.csv')
 
